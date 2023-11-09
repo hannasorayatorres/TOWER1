@@ -1,34 +1,40 @@
-body{
-    font-family:'Montserrat', sans-serif;
-    padding: 0;
-    
-}
 :root{
     color: #fff;
     color: #5c8583a9;
-    color:darkslategray;
+    color:rgba(47, 79, 79, 0.767);
     color:#566e6d;
 }
 
+
+body{
+    font-family:'Montserrat', sans-serif;
+    padding: 0;
+
+    
+
+    }
+
 header{
-    display: flexbox;
+    display: flex-box;
     justify-content: space-around;
     align-items: center;
     gap: 4rem;
     flex-wrap: wrap;
     padding: .8rem;
-    background-color: #fff;
     min-height: 50px;
-}
-.box-img-header{
-    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    background-image: url('/img/predio.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
 }
 
 main{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #8bb1afc4;
+    background-color: rgba(140, 171, 189, 0.506);
 }
 
 section{
@@ -36,14 +42,25 @@ section{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: rem;
     color: #566e6d;
 
 }
+h2{
+    font-size: rem;
+    color: #000000;
+    text-align: center;
+
+}
+
+
 strong{
     color:rgb(55, 87, 87);
 }
 
+.box-img-header{
+    height: 100%;
+}
 
 #segunda-section{
     display:flex ;
@@ -56,27 +73,30 @@ strong{
 }
 
 #terceira-section{
-    background-color: rgba(145, 194, 190, 0.877);
+    background-color: rgba(41, 87, 87, 0.877);
     display: flex;
-    gap: 2rem;
 }
 
-.terceira-section div{
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
 
+.terceira-section img{
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    margin-inline: 3%; 
+  
 }
 
-.terceira-section div img{
-    width: 500px;
-    border-radius: 10px;
-    align-items:  center;
-    margin-left: 48rem"
+.terceira-section p{
+    text-align:center;
+    align-items:center;
+    max-width: 50%;
+    margin-top: 4%;
+}
+.terceira-section div h2{
+    max-width: 30%;
+    text-align:center;
+    margin-left: 33rem;
     
+
 }
 
-.terceira-section div p{
-    max-width: 700px;
-    text-align: justify;
-}
